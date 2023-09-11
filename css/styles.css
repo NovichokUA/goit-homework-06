@@ -147,6 +147,30 @@ img {
     color: #404BBF;
 }
 
+.mobile-menu-address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 16px;
+}
+
+.mobile-menu-address-list-item {
+    color: var(--SLATE, #434455);
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+.mobile-menu-address-list-item:active {
+    color: #4D5AE5;
+}
+
 .contnav {
     display: flex;
     align-items: center;
