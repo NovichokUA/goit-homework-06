@@ -44,13 +44,15 @@ img {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.is-open {
+/* .is-open {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
 .container-header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -127,7 +129,7 @@ img {
 .mobile-menu-navigation {
     margin-top: 72px;
     margin-left: 16px;
-    margin-bottom: 168px;
+    margin-bottom: auto;
 }
 
 .mobile-menu-list-item {
