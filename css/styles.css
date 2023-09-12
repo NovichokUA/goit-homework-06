@@ -31,6 +31,19 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* HEADER */
 
 .mobile-menu {
@@ -48,11 +61,11 @@ img {
     flex-direction: column;
 }
 
-/* .is-open {
+.is-open {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-} */
+}
 
 .container-header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -61,7 +74,7 @@ img {
 }
 
 .container {
-    width: 320px;
+    min-width: 320px;
     margin: 0 auto;
 }
 
@@ -337,7 +350,7 @@ img {
 @media (min-width: 1158px) {
 
     .container {
-        min-width: 1158px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -447,6 +460,62 @@ img {
 
 /* HERO */
 
+.secthero {
+    background: var(--navyblue, #2E2F42);
+    padding: 72px 0 72px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(../images/background/people-in-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 1440px 600px;*/
+    max-width: 768px;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.title {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    max-width: 288px;
+    margin: 0 55px 72px;
+}
+
+.button {
+    background-color: var(--iris, #4D5AE5);
+    cursor: pointer;
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: var(--ocean, #404BBF);
+}
+
+@media () {}
+
+
+
+
 .container-column {
     flex-direction: column;
 }
@@ -461,77 +530,6 @@ img {
     border-radius: 4px;
     border: 1px solid var(--lightslate, #8E8F99);
     background-color: var(--cloud, #F4F4FD);
-}
-
-.button {
-    background-color: var(--iris, #4D5AE5);
-    cursor: pointer;
-    color: var(--white, #FFF);
-
-    /* Button Text */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    /* 150% */
-    letter-spacing: 0.64px;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-button:hover,
-button:focus {
-    background-color: var(--ocean, #404BBF);
-}
-
-.secthero {
-    background: var(--navyblue, #2E2F42);
-    padding: 188px 0 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(../images/background/people-in-office.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background-size: 1440px 600px;*/
-    max-width: 1440px;
-
-    margin: 0 auto;
-    background-position: center;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.title {
-    color: var(--white, #FFF);
-    text-align: center;
-
-    /* Header 1 */
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.07;
-    /* 107.143% */
-    letter-spacing: 1.12px;
-    max-width: 496px;
-    margin: 0 auto 48px;
 }
 
 .section-dascr {
