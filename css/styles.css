@@ -76,6 +76,7 @@ img {
 .container {
     min-width: 320px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .header-property {
@@ -234,7 +235,7 @@ img {
     display: inline-flex;
     align-self: center;
     margin-right: 120px;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .address {
@@ -305,8 +306,6 @@ img {
 
     .container {
         min-width: 768px;
-        padding-left: 16px;
-        padding-right: 16px;
     }
 
     .contuladr {
@@ -350,10 +349,7 @@ img {
 @media (min-width: 1158px) {
 
     .container {
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
+        min-width: 1158px;
     }
 
     .container-main-nav {
@@ -511,7 +507,36 @@ button:active {
     background-color: var(--ocean, #404BBF);
 }
 
-@media () {}
+@media (min-width: 768px) and (max-width: 1158px) {
+    .title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        /* height: 120px; */
+        margin: 0 auto 36px;
+    }
+
+    .secthero {
+        padding: 112px 0 112px;
+        max-width: 1158px;
+    }
+
+}
+
+@media (min-width: 1156px) {
+    .title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        margin: 0 auto 48px;
+    }
+
+    .secthero {
+        padding: 188px 0;
+        max-width: 1440px;
+    }
+
+}
 
 
 
