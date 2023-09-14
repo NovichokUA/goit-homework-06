@@ -509,7 +509,7 @@ button:active {
     background-color: var(--ocean, #404BBF);
 }
 
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
     .title {
         font-size: 56px;
         line-height: 1.07;
@@ -524,7 +524,7 @@ button:active {
 
 }
 
-@media (min-width: 1156px) {
+@media (min-width: 1158px) {
     .title {
         font-size: 56px;
         line-height: 1.07;
@@ -551,7 +551,7 @@ button:active {
 
 .section-dascr {
     background-color: #FFF;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .section-dascr-list {
@@ -561,21 +561,8 @@ button:active {
     padding: 0;
 }
 
-/* .item {
-    width: calc((100% - 72px) / 4);
-} */
-
 .icon {
     display: none;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    height: 112px;
-
-    margin-bottom: 8px;
-    border-radius: 4px;
-    border: 1px solid var(--lightslate, #8E8F99);
-    background-color: var(--cloud, #F4F4FD);
 }
 
 .paragraf {
@@ -590,15 +577,79 @@ button:active {
 }
 
 .deskr {
-    /* padding: 0;
+    padding: 0;
     margin: 0;
-    width: 264px;*/
+    width: 288px;
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+@media (min-width: 768px) and (max-width: 1157px) {
+
+    .section-dascr-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .paragraf {
+        text-align: start;
+    }
+
+    .deskr {
+        width: 356px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1158px) {
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        border: 1px solid var(--lightslate, #8E8F99);
+        background-color: var(--cloud, #F4F4FD);
+    }
+
+    .item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .section-dascr-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 0 156px;
+    }
+
+    .paragraf {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: start;
+    }
+
+    .deskr {
+        width: 264px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
 
 /* -------------- */
 /* -------------- */
