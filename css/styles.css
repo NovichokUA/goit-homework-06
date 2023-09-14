@@ -539,15 +539,35 @@ button:active {
 
 }
 
-
-
-
+/* ---------------- */
+/* ---------------- */
 .container-column {
     flex-direction: column;
 }
 
-.icon {
+/* SECTION Features */
+
+/* SECTION Features */
+
+.section-dascr {
+    background-color: #FFF;
+    padding: 120px 0;
+}
+
+.section-dascr-list {
     display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 0;
+}
+
+/* .item {
+    width: calc((100% - 72px) / 4);
+} */
+
+.icon {
+    display: none;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 112px;
@@ -558,10 +578,30 @@ button:active {
     background-color: var(--cloud, #F4F4FD);
 }
 
-.section-dascr {
-    background-color: #FFF;
-    padding: 120px 0;
+.paragraf {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
 }
+
+.deskr {
+    /* padding: 0;
+    margin: 0;
+    width: 264px;*/
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* -------------- */
+/* -------------- */
 
 .features {
     color: var(--navyblue, #2E2F42);
@@ -577,16 +617,6 @@ button:active {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom: 72px;
-}
-
-.section-dascr-list {
-    display: flex;
-    gap: 24px;
-    padding: 0;
-}
-
-.item {
-    width: calc((100% - 72px) / 4);
 }
 
 .ourteam {
@@ -610,36 +640,6 @@ button:active {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.paragraf {
-    color: var(--navyblue, #2E2F42);
-    /* Header 3 */
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    /* 120% */
-    letter-spacing: 0.4px;
-    margin: 0 0 8px 0;
-
-}
-
-.deskr {
-    color: var(--slate, #434455);
-
-    /* Body */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    /* 150% */
-    letter-spacing: 0.02em;
-    padding: 0;
-    margin: 0;
-    width: 264px;
 }
 
 .container-portfolio-descr {
