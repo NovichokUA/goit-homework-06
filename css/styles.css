@@ -675,8 +675,9 @@ button:active {
 }
 
 .team {
+    width: 264px;
+    margin: 0 auto;
     padding-bottom: 72px;
-    ;
     background: var(--white, #FFF);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -697,7 +698,8 @@ button:active {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.20em;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .title-our-team-description {
@@ -725,13 +727,6 @@ button:active {
 .social-icon {
     width: 40px;
     height: 40px;
-    /*border-radius: 50%;
-    background-color: var(--iris, #4D5AE5);
-    transition-property: backround-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    justify-content: center;*/
 }
 
 .link-social {
