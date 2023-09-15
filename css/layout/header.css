@@ -64,6 +64,7 @@
     height: 24px;
     display: flex;
     justify-content: center;
+    line-height: 0;
     align-items: center;
     cursor: pointer;
     padding: 0;
@@ -243,7 +244,7 @@
         letter-spacing: 0.04em;
         text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        ;
+
     }
 
     .mobile-menu-btn-open {
@@ -295,12 +296,7 @@
         padding: 0 15px;
     }
 
-    .container-main-nav {
-        display: flex;
-    }
-
     .logo {
-        padding: 24px 0;
         margin-right: 76px;
     }
 
@@ -309,46 +305,10 @@
         align-items: center;
     }
 
-    .contul {
-        display: flex;
-        gap: 40px;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .nav {
-        color: #2E2F42;
-        /* Body Medium */
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        padding: 24px 0 24px 0;
-        display: block;
-        position: relative;
-        transition: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .address {
-        display: flex;
-        font-style: normal;
-        transition: color;
-    }
-
     .titleaddr {
-        color: var(--SLATE, #434455);
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-decoration: none;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        ;
     }
 
     .mobile-menu-btn-open {
@@ -356,39 +316,7 @@
     }
 
     .contuladr {
-        display: flex;
         flex-direction: row;
         gap: 40px;
-        align-items: center;
-    }
-
-    .nav-hover::after {
-        color: #404BBF;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        content: "";
-        width: 100%;
-        height: 4px;
-        border-radius: 2px;
-        background-color: #404BBF;
-        transition: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .nav-hover:hover::after,
-    .nav-hover:focus::after {
-        background-color: var(--ocean, #404BBF);
-    }
-
-    .nav:hover,
-    .nav:focus {
-        color: var(--ocean, #404BBF);
-    }
-
-    address a:hover,
-    address a:focus {
-        color: var(--ocean, #404BBF);
     }
 }

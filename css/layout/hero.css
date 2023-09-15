@@ -1,0 +1,115 @@
+.secthero {
+    background: var(--navyblue, #2E2F42);
+    padding: 72px 0 72px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/mobile/Dark-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 768px;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.title {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    max-width: 288px;
+    margin: 0 55px 72px;
+}
+
+.button {
+    background-color: var(--iris, #4D5AE5);
+    cursor: pointer;
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: var(--ocean, #404BBF);
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 768px),
+screen and (min-resolution: 2dppx) and (max-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/mobile/Dark-bg@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/laptop/Dark-bg.jpg);
+    }
+
+    .title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        margin: 0 auto 36px;
+    }
+
+    .secthero {
+        padding: 112px 0 112px;
+        max-width: 1158px;
+    }
+
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 1158px),
+screen and (min-resolution: 2dppx) and (max-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1158px) {
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
+            url(/images/hero/laptop/Dark-bg@2x.jpg);
+    }
+}
+
+@media (min-width: 1158px) {
+
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/desctop/people-office.jpg);
+    }
+
+    .title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        margin: 0 auto 48px;
+    }
+
+    .secthero {
+        padding: 188px 0;
+        max-width: 1440px;
+        background-size: 1440px 600px;
+    }
+
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
+            url(/images/hero/desctop/people-office@2x.jpg);
+    }
+}
