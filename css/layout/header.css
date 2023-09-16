@@ -291,11 +291,6 @@
 
 @media (min-width: 1158px) {
 
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    }
-
     .logo {
         margin-right: 76px;
     }

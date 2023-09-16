@@ -98,7 +98,7 @@
         display: flex;
         flex-wrap: wrap;
         row-gap: 64px;
-        padding: 0 108px;
+        padding: 0 92px;
         column-gap: 24px;
     }
 
@@ -106,8 +106,20 @@
         width: calc((100% - 24px) / 2);
         margin-bottom: 0;
     }
+}
 
-    .ourteam>.container {
+@media screen and (min-width: 1158px) {
+    .container-ourteam {
+        flex-direction: row;
+        gap: 24px;
         padding: 0;
+    }
+
+    .ourteam {
+        padding: 120px 0;
+    }
+
+    .team {
+        width: calc((100% - 72px) / 4);
     }
 }
