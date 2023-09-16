@@ -40,7 +40,7 @@
     letter-spacing: 0.02em;
 }
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
 
     .section-dascr-list {
         flex-direction: row;
@@ -64,7 +64,7 @@
     }
 }
 
-@media (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
 
     .icon {
         display: flex;
@@ -85,7 +85,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
-        padding: 0 156px;
     }
 
     .paragraf {
