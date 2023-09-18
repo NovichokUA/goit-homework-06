@@ -1,6 +1,7 @@
 /* UTILS */
 @import "./utils/visually-hidden.css";
 @import "./utils/variables.css";
+@import "./utils/is-hidden.css";
 
 /* BASE */
 
@@ -14,3 +15,4 @@
 @import "./layout/our-team.css";
 @import "./layout/portfolio.css";
 @import "./layout/footer.css";
+@import "./layout/modal.css";
