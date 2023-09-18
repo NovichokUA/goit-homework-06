@@ -1,7 +1,9 @@
 .secthero {
     background: var(--navyblue, #2E2F42);
     padding: 72px 0 72px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(../../images/hero/mobile/Dark-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+            rgba(46, 47, 66, 0.7)),
+        url(../../images/hero/mobile/Dark-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 768px;
@@ -51,14 +53,18 @@ button:active {
 screen and (min-resolution: 2dppx) and (max-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
     .secthero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/mobile/Dark-bg@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/hero/mobile/Dark-bg@2x.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
 
     .secthero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/laptop/Dark-bg.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/hero/laptop/Dark-bg.jpg);
     }
 
     .title {
@@ -80,14 +86,16 @@ screen and (min-resolution: 2dppx) and (max-width: 1158px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 1158px) {
     .secthero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
-            url(/images/hero/laptop/Dark-bg@2x.jpg);
+            url(../../images/hero/laptop/Dark-bg@2x.jpg);
     }
 }
 
 @media (min-width: 1158px) {
 
     .secthero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/desctop/people-office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/hero/desctop/people-office.jpg);
     }
 
     .title {
@@ -110,6 +118,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .secthero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
-            url(/images/hero/desctop/people-office@2x.jpg);
+            url(../../images/hero/desctop/people-office@2x.jpg);
     }
 }
