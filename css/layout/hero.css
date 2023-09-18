@@ -1,7 +1,7 @@
 .secthero {
     background: var(--navyblue, #2E2F42);
     padding: 72px 0 72px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(/images/hero/mobile/Dark-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)), url(../../images/hero/mobile/Dark-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 768px;
