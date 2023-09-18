@@ -49,15 +49,7 @@ button:active {
     background-color: var(--ocean, #404BBF);
 }
 
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .secthero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
-                rgba(46, 47, 66, 0.7)),
-            url(../../images/hero/mobile/Dark-bg@2x.jpg);
-    }
-}
+
 
 @media screen and (min-width: 768px) {
 
@@ -81,16 +73,9 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
 }
 
-@media screen and (min-resolution: 192dpi) and (max-width: 1157px),
-screen and (min-resolution: 2dppx) and (max-width: 1157px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 1157px) {
-    .secthero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
-            url(../../images/hero/laptop/Dark-bg@2x.jpg);
-    }
-}
 
-@media (min-width: 1158px) {
+
+@media screen and (min-width: 1158px) {
 
     .secthero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70),
@@ -119,5 +104,24 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
     .secthero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
             url(../../images/hero/desctop/people-office@2x.jpg);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 1157px),
+screen and (min-resolution: 2dppx) and (max-width: 1157px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1157px) {
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.7)),
+            url(../../images/hero/laptop/Dark-bg@2x.jpg);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .secthero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/hero/mobile/Dark-bg@2x.jpg);
     }
 }
