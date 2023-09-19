@@ -70,6 +70,11 @@
     margin-bottom: 72px;
 }
 
+.link-social-footer:hover,
+.link-social-footer:focus {
+    background-color: var(--green, #31D0AA);
+}
+
 .title-footer-form {
     color: var(--WHITE, #FFF);
     font-size: 16px;
