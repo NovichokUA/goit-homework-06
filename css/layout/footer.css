@@ -70,9 +70,11 @@
     margin-bottom: 72px;
 }
 
-.link-social-footer:hover,
-.link-social-footer:focus {
+.social-icon:hover,
+.social-icon:focus {
     background-color: var(--green, #31D0AA);
+    border-radius: 50%;
+    fill: #F4F4FD;
 }
 
 .title-footer-form {
