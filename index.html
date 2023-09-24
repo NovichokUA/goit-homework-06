@@ -26,7 +26,7 @@
 			<div class="header-property container">
 				<div class="container-main-nav">
 					<div>
-						<button class="mobile-menu-btn-open" type="button">
+						<button class="mobile-menu-btn-open" type="button" data-menu-open>
 							<svg width="24" height="24" class="mobile-menu-btn-open-icon">
 								<use href="./images/svg-sprit/icon.svg#icon-icon-menu"></use>
 							</svg>
@@ -51,8 +51,8 @@
 						</li>
 					</ul>
 				</address>
-				<div class="mobile-menu is-open">
-					<button class="mobile-menu-btn-close" type="button">
+				<div class="mobile-menu" data-menu>
+					<button class="mobile-menu-btn-close" type="button" data-menu-close>
 						<svg width="8" height="8" class="mobile-menu-btn-close-icon">
 							<use href="./images/svg-sprit/icon.svg#icon-Vector-close"></use>
 						</svg>
@@ -653,5 +653,6 @@
 				</form>
 			</div>
 		</div>
+		<script src="./js/mobile-menu.js"></script>
 	</body>
 </html>
